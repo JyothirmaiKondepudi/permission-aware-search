@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+build/
+dist/
+
+# OS files
+.DS_Store
+
+# evaluation output written by tools/evaluate.py --json
+results.json
+
+# personal working files, kept locally but not part of the submission
+data/documents.pretty.json
+tools/check_rule.py
+tools/try_search.py
